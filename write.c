@@ -42,8 +42,4 @@ int main() {
     shmdt(line);
 
     return 0;
-
-    sembuffer.sem_op = 1;
-    semop(semid, &sembuffer, 1);
-    return 0;
 }
